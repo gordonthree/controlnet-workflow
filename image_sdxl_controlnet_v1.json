@@ -1,7 +1,7 @@
 {
   "id": "2616b5a7-6caf-4811-a557-3aeccac07b7a",
   "revision": 0,
-  "last_node_id": 56,
+  "last_node_id": 57,
   "last_link_id": 120,
   "nodes": [
     {
@@ -626,6 +626,28 @@
       ]
     },
     {
+      "id": 57,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        140,
+        1330
+      ],
+      "size": [
+        210,
+        82
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "ControlNet On/Off",
+      "properties": {
+        "Node name for S&R": "Fast Groups Bypasser (rgthree)"
+      },
+      "widgets_values": []
+    },
+    {
       "id": 7,
       "type": "SaveImage",
       "pos": [
@@ -898,6 +920,18 @@
         260
       ],
       "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "ControlNet",
+      "bounding": [
+        140,
+        750,
+        850,
+        550
+      ],
+      "color": "#a1309b",
       "flags": {}
     }
   ],
