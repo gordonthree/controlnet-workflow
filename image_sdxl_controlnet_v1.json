@@ -2,7 +2,7 @@
   "id": "2616b5a7-6caf-4811-a557-3aeccac07b7a",
   "revision": 0,
   "last_node_id": 56,
-  "last_link_id": 118,
+  "last_link_id": 120,
   "nodes": [
     {
       "id": 14,
@@ -201,7 +201,7 @@
       ],
       "flags": {},
       "order": 10,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "positive",
@@ -216,7 +216,7 @@
         {
           "name": "control_net",
           "type": "CONTROL_NET",
-          "link": 118
+          "link": 120
         },
         {
           "name": "image",
@@ -268,7 +268,7 @@
       ],
       "flags": {},
       "order": 1,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -575,7 +575,7 @@
           "name": "CONTROL_NET",
           "type": "CONTROL_NET",
           "links": [
-            118
+            119
           ]
         }
       ],
@@ -584,6 +584,45 @@
       },
       "widgets_values": [
         "controlnet-union-sdxl-1.0.safetensors"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "SetUnionControlNetType",
+      "pos": [
+        480,
+        1215.8493752053405
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "control_net",
+          "type": "CONTROL_NET",
+          "link": 119
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONTROL_NET",
+          "type": "CONTROL_NET",
+          "links": [
+            120
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SetUnionControlNetType",
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0"
+      },
+      "widgets_values": [
+        "openpose"
       ]
     },
     {
@@ -820,8 +859,16 @@
       "IMAGE"
     ],
     [
-      118,
+      119,
       55,
+      0,
+      56,
+      0,
+      "CONTROL_NET"
+    ],
+    [
+      120,
+      56,
       0,
       38,
       2,
