@@ -106,25 +106,25 @@
         },
         {
           "on": false,
-          "lora": "Nipples XL - All in One.safetensors",
+          "lora": "lora 1",
           "strength": 0.65,
           "strengthTwo": null
         },
         {
           "on": false,
-          "lora": "SDXL_BetterFaces-LoRA_v1.safetensors",
+          "lora": "lora 2",
           "strength": 0.65,
           "strengthTwo": null
         },
         {
           "on": false,
-          "lora": "JM_epoch_10.safetensors",
+          "lora": "lora 3",
           "strength": 0.6,
           "strengthTwo": null
         },
         {
           "on": false,
-          "lora": "heelsup_v10.safetensors",
+          "lora": "lora 4",
           "strength": 1,
           "strengthTwo": null
         },
